@@ -1,7 +1,7 @@
 import Product from "./Product.jsx";
 
 function ProductTab() {
-  let options = [<li>"hi-tech"</li>,<li>"durable"</li>,<li>"fast"</li>];
+  let options = ["Hi-Tech", "Durable", "Fast"];
   return (
     <>
       <Product title="Phone" price={30000} features={options} />
@@ -10,5 +10,7 @@ function ProductTab() {
     </>
   );
 }
+
+
 
 export default ProductTab;
